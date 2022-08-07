@@ -1,0 +1,82 @@
+/*html{*/
+/*  background-color: aqua;*/
+/*}*/
+.header{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 88px;
+  z-index: 10;
+  -webkit-box-shadow: 0 7px 8px rgba(0, 0, 0, 0.12);
+  -moz-box-shadow: 0 7px 8px rgba(0, 0, 0, 0.12);
+  box-shadow: 0 7px 8px rgba(0, 0, 0, 0.12);
+  background-color: #05639e;
+  color:black;
+}
+
+.header-text {
+  text-align: center;
+  padding: 15px 20px;
+}
+
+.main div {
+            float: left;
+            clear: none;
+        }
+.grid-container {
+  margin: 100px;
+/*  !*width: 1350px;*!*/
+/*  !*padding: 30px;*!*/
+/*  !*display: inline-flex;*!*/
+/*  !* justify-content: flex-start;  *!*/
+/*  display: inline-block;*/
+}
+.Button {
+  height:35px;
+  margin:4px;
+  background-color: #05639e; /* Green */
+  border: 10px;
+  border-radius:3px ;
+  color: white;
+  width:150px;
+
+}
+
+
+
+
+svg {
+  font: 10px sans-serif;
+}
+
+.background path {
+  fill: none;
+  stroke: #ddd;
+  shape-rendering: crispEdges;
+}
+
+/*.foreground path {*/
+/*  fill: none;*/
+/*  stroke: steelblue;*/
+/*}*/
+
+.brush .extent {
+  fill-opacity: .3;
+  stroke: #fff;
+  shape-rendering: crispEdges;
+}
+
+.axis line,
+.axis path {
+  fill: none;
+  stroke: #000;
+  shape-rendering: crispEdges;
+}
+
+.axis text {
+  color: black;
+  text-shadow: 0 1px 0 #fff, 1px 0 0 #fff, 0 -1px 0 #fff, -1px 0 0 #fff;
+  cursor: move;
+  font-size: 10px;
+}

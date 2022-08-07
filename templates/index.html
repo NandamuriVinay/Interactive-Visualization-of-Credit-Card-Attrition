@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="https://d3js.org/d3.v4.min.js"></script>
+    <script src= "
+    https://d3js.org/d3-color.v1.min.js">
+    </script>
+    <script src= "
+    https://d3js.org/d3-interpolate.v1.min.js">
+    </script>
+    <script src= "
+    https://d3js.org/d3-scale-chromatic.v1.min.js">
+    </script>
+   <link rel="stylesheet" type="text/css" href="../static/styles.css">
+       <script src="../static/styles.css"></script>
+    <script type="text/javascript" src="../static/index.js"></script>
+    <script type="text/javascript" src="../static/stackedBar.js"></script>
+</head>
+<body>
+        <div class="header">
+            <h1 class="header-text">
+                Credit Card Attrition
+            </h1>
+        </div>
+
+        <div class=" grid-container">
+            <svg id="svg-canvas"></svg>
+        </div>
+<script>
+    var data_sent={{ data| safe}}
+    //drawPcp(data_sent);
+    //drawStackedBarChart(data_sent);
+    drawStackedBarChart(data_sent);
+</script>
+</body>
+</html>
